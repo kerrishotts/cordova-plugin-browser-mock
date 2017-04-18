@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
+           id="cordova-plugin-browser-mock"
+      version="0.0.1">
+    <name>BrowserMock</name>
+
+    <platform name="browser">
+        <js-module src="src/browser/Mock.js" name="BrowserMock">
+            <clobbers target="cordova.plugins.browser.mock" />
+        </js-module>
+    </platform>
+
+</plugin>
